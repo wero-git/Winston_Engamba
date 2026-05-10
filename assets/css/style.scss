@@ -2,37 +2,48 @@
 ---
 @import "{{ site.theme }}";
 
-/* 1. Cible le titre principal sur la page blanche (Ton "# Welcome") */
+/* 1. Cible le titre "Welcome" (h1) et ses barres décoratives */
 #main_content h1 {
     font-family: "Cambria", "David", serif !important;
-    font-size: 2.2rem;
-    color: #154360; /* Un bleu foncé pro pour rappeler la bannière */
-    margin-top: 0;
-    content: none !important; /* Force la suppression des barres si elles persistent */
+    font-size: 2.8rem !important;
+    color: #154360 !important;
 }
 
-/* 2. Cible le sous-titre (Ton "## Process Management...") */
-#main_content h2 {
-    font-family: "Cambria", "David", serif !important;
-    font-size: 1.5rem;
-    color: #333;
-    font-weight: normal;
-    border-bottom: 1px solid #eee; /* Une fine ligne de séparation élégante */
-    padding-bottom: 9px; /* espace entre chaque tiret */
+/* Supprime la barre oblique "/" devant Welcome */
+#main_content h1::before {
     content: none !important;
 }
 
-/* 3. Cible tous les autres titres (Compétences, Projets, etc.) */
-h3, h4 {
+/* 2. Cible "Process Management | Digitization | Optimization" (h2) */
+#main_content h2 {
     font-family: "Cambria", "David", serif !important;
-    color: #154360;
+    font-size: 1.6rem !important;
+    color: #333 !important;
+    font-weight: bold !important;
 }
 
-/* 4. Le corps du texte (paragraphes et listes) */
+/* Supprime les barres obliques "//" devant le h2 */
+#main_content h2::before {
+    content: none !important;
+}
+
+/* 3. Cible "Education & Learning Path" (h3) */
+#main_content h3 {
+    font-family: "Cambria", "David", serif !important;
+    font-size: 1.4rem !important;
+    color: #154360 !important;
+}
+
+/* Supprime les barres "///" devant le h3 */
+#main_content h3::before {
+    content: none !important;
+}
+
+/* 4. Ajuste le corps de texte (paragraphes et listes) */
 body, p, li {
-    font-family: "Calibri", "Segoe UI", sans-serif;
-    font-size: 19px;
-    line-height: 1.6;
+    font-family: "Calibri", "Segoe UI", sans-serif !important;
+    font-size: 19px !important;
+    line-height: 1.6 !important;
 }
 // Bannière bleue
 .page-header {
