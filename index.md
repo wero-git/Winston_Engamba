@@ -12,7 +12,7 @@ title: Home | Process Management Portfolio
 ### 📂 Key Focus Areas
 *   [**Process Digitization**](./numerisation.html) – Transitioning to automated and paperless workflows.
 *   [**Process Optimization**](./optimisation.html) – Lean methodologies and continuous improvement.
-*   **Data Analysis** – Turning operational data into actionable insights.
+*   [**Data Analysis**](./data_anakysis.html) – Turning operational data into actionable insights.
 
 ### 🛠 Technical Toolbox
 *   **Methodologies:** Lean Six Sigma, BPMN 2.0, VSM.
