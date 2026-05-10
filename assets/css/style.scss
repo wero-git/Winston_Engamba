@@ -13,13 +13,13 @@ h3::before, h3::after,
 /* --- 2. TITRES (WELCOME & SECTIONS) --- */
 /* On force l'application des polices sur tous les niveaux de titres */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Cambria", "David", serif !important;
+    font-family: "Cambria", "Times New Roman", serif !important;
     border-bottom: none !important;
     color: #154360 !important; /* Bleu pro */
 }
 /* 1. Cible le titre principal sur la page blanche (Ton "# Welcome") */
 #main_content h1 {
-    font-family: "Cambria", "David", serif!important;
+    font-family: "Cambria", "Times New Roman", serif !important;
     font-size: 2.2rem;
     color: #154360; /* Un bleu foncé pro pour rappeler la bannière */
     margin-top: 0;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 2. Cible le sous-titre (Ton "## Process Management...") */
 #main_content h2 {
-    font-family: "Cambria", "David", serif!important;
+    font-family: "Cambria", "Times New Roman", serif !important;
     font-size: 1.5rem;
     color: #333;
     font-weight: normal;
@@ -39,13 +39,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 3. Cible tous les autres titres (Compétences, Projets, etc.) */
 h3, h4 {
-    font-family: "Cambria", "David", serif !important;
+    font-family: "Cambria", "Times New Roman", serif !important;
     color: #154360;
 }
 
 /* 4. Le corps du texte (paragraphes et listes) */
 body, p, li {
-    font-family: "Calibri", "Segoe UI", sans-serif;
+    font-family: "Cambria", "Segoe UI", sans-serif;
     font-size: 19px;
     line-height: 1.6;
 }
