@@ -10,9 +10,16 @@ h3::before, h3::after,
     display: none !important;
     content: "" !important;
 }
+/* --- 2. TITRES (WELCOME & SECTIONS) --- */
+/* On force l'application des polices sur tous les niveaux de titres */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cambria", "David", serif !important;
+    border-bottom: none !important;
+    color: #154360 !important; /* Bleu pro */
+}
 /* 1. Cible le titre principal sur la page blanche (Ton "# Welcome") */
 #main_content h1 {
-    font-family: "Cambria", "David", serif;
+    font-family: "Cambria", "David", serif!important;
     font-size: 2.2rem;
     color: #154360; /* Un bleu foncé pro pour rappeler la bannière */
     margin-top: 0;
@@ -21,7 +28,7 @@ h3::before, h3::after,
 
 /* 2. Cible le sous-titre (Ton "## Process Management...") */
 #main_content h2 {
-    font-family: "Cambria", "David", serif;
+    font-family: "Cambria", "David", serif!important;
     font-size: 1.5rem;
     color: #333;
     font-weight: normal;
