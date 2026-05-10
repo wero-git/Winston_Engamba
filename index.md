@@ -1,11 +1,23 @@
-# Welcome to my Portfolio - Optimization & Digital Transformation
-## Winston Engamba | Student in Digitalization, Process optimization and management
+---
+layout: default
+title: Home | Process Management Portfolio
+---
 
-### 🛠 Key Skills
-* **Process Optimization:** Lean Management, Six Sigma, Value Stream Mapping (VSM).
-* **Digital Transformation:** ERP Integration & Workflow Digitization.
-* **Tools & Frameworks:** SQL, BPMN 2.0, Data Visualization.
+# Welcome to my Professional Portfolio
+## Process Management | Digitization | Optimization
 
-### 🚀 Ongoing Projects & Case Studies
-1. **Logistics Data Analysis**: Working on a Power BI dashboard to visualize production KPIs.
-2. **Process Mapping Gallery**: A collection of optimized workflows for manufacturing environments.
+
+---
+
+### 📂 Key Focus Areas
+*   [**Process Digitization**](./numerisation.html) – Transitioning to automated and paperless workflows.
+*   [**Process Optimization**](./optimisation.html) – Lean methodologies and continuous improvement.
+*   **Data Analysis** – Turning operational data into actionable insights.
+
+### 🛠 Technical Toolbox
+*   **Methodologies:** Lean Six Sigma, BPMN 2.0, VSM.
+*   **Software:** SQL, ERP Systems.
+*   **Automation:** Python, VBA.
+
+---
+[Connect with me on LinkedIn](https://www.linkedin.com/in/winston-engamba-7b3489325)
