@@ -2,33 +2,38 @@
 ---
 @import "{{ site.theme }}";
 
-// Suppression des barres/tirets décoratifs
-.page-header h1::before, .page-header h1::after,
-h1::before, h1::after, 
-h2::before, h2::after {
+/* 1. Cible le titre principal sur la page blanche (Ton "# Welcome") */
+#main_content h1 {
+    font-family: "Cambria", "David", serif !important;
+    font-size: 2.2rem;
+    color: #154360; /* Un bleu foncé pro pour rappeler la bannière */
+    margin-top: 0;
+    content: none !important; /* Force la suppression des barres si elles persistent */
+}
+
+/* 2. Cible le sous-titre (Ton "## Process Management...") */
+#main_content h2 {
+    font-family: "Cambria", "David", serif !important;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: normal;
+    border-bottom: 1px solid #eee; /* Une fine ligne de séparation élégante */
+    padding-bottom: 9px; /* espace entre chaque tiret */
     content: none !important;
 }
 
-// Titres plus imposants et élégants
-h1, h2, h3 {
-    font-family: "Cambria", "Times New Roman", "Times New Roman", serif;
-    font-weight: bold;
-    border-bottom: none !important;
+/* 3. Cible tous les autres titres (Compétences, Projets, etc.) */
+h3, h4 {
+    font-family: "Cambria", "David", serif !important;
+    color: #154360;
 }
 
-// CORPS DE TEXTE : On augmente la taille ici
-body {
-    font-family: "Times New Roman", "Segoe UI", "Arial", sans-serif;
-    color: #333;
-    font-size: 20px;      // Taille augmentée (standard web moderne)
-    line-height: 1.5;    // Espace entre les lignes pour plus de clarté
+/* 4. Le corps du texte (paragraphes et listes) */
+body, p, li {
+    font-family: "Calibri", "Segoe UI", sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
 }
-
-// On s'assure que les listes (puces) suivent aussi
-li {
-    margin-bottom: 9px; // Espace entre chaque point de la liste
-}
-
 // Bannière bleue
 .page-header {
     background-color: #154360; 
