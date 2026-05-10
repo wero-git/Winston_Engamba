@@ -3,7 +3,7 @@ layout: default
 title: Home | Process Management Portfolio
 ---
 
-# Welcome to my Professional Portfolio
+# Welcome 
 ## Process Management | Digitization | Optimization
 
 
