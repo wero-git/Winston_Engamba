@@ -2,15 +2,27 @@
 ---
 @import "{{ site.theme }}";
 
-// Personnalisation des titres
-h1, h2, h3, h4 {
-    font-family: "Cambria", "David", serif;
-    font-weight: bold;
-    color: #2c3e50;
+// Suppression des barres/tirets décoratifs sur les titres du thème Architect
+.page-header h1::before, .page-header h1::after,
+h1::before, h1::after, 
+h2::before, h2::after {
+    content: none !important;
 }
 
-// Personnalisation du corps de texte
-body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.1em;
+// Personnalisation des polices des titres (Welcome text & sections)
+h1, h2, h3 {
+    font-family: "Cambria", "David", "Georgia", serif;
+    font-weight: bold;
+    border-bottom: none !important; // Enlève aussi la ligne de soulignement si elle vous gêne
 }
+
+// Personnalisation du corps de texte pour une lecture pro
+body {
+    font-family: "Calibri", "Segoe UI", Arial, sans-serif;
+    color: #333;
+}
+
+// Optionnel : Ajuster la couleur de la bannière bleue pour un bleu plus "Process/Industrie"
+.page-header {
+    background-color: #154360; 
+    background-image: none; // Enlève le dégradé pour un look plus plat et moderne
