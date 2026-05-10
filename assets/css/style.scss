@@ -18,10 +18,10 @@ h1, h2, h3 {
 
 // CORPS DE TEXTE : On augmente la taille ici
 body {
-    font-family: "Times New Roman", "Segoe UI", Arial, sans-serif;
+    font-family: "Times New Roman", "Segoe UI", "Arial", sans-serif;
     color: #333;
-    font-size: 22px;      // Taille augmentée (standard web moderne)
-    line-height: 1.6;    // Espace entre les lignes pour plus de clarté
+    font-size: 20px;      // Taille augmentée (standard web moderne)
+    line-height: 1.5;    // Espace entre les lignes pour plus de clarté
 }
 
 // On s'assure que les listes (puces) suivent aussi
