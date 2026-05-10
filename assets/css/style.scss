@@ -1,7 +1,15 @@
 ---
 ---
 @import "{{ site.theme }}";
-
+/* --- 1. SUPPRESSION TOTALE DES BARRES / ET // --- */
+/* On cible tous les titres possibles et leurs "pseudo-éléments" */
+h1::before, h1::after, 
+h2::before, h2::after, 
+h3::before, h3::after,
+.header h1::before, .header h2::before {
+    display: none !important;
+    content: "" !important;
+}
 /* 1. Cible le titre principal sur la page blanche (Ton "# Welcome") */
 #main_content h1 {
     font-family: "Cambria", "David", serif;
