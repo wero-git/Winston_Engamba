@@ -1,3 +1,13 @@
+<style>
+  .page-header {
+    background-color: #1a1a1a !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                      url("https://github.com/wero-git/Winston_Engamba/blob/main/images/top.png?raw=true") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 5rem 1rem !important;
+  }
+</style>
 ---
 layout: default
 title: Home | Process Management Portfolio
