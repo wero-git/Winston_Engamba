@@ -81,8 +81,21 @@ body, p, li {
     font-size: 19px;
     line-height: 1.6;
 }
-// Bannière bleue
+/* --- BANNIÈRE AVEC IMAGE --- */
 .page-header {
-    background-color: #154360; 
-    background-image: none; 
+    /* Remplace 'images/banner.jpg' par le chemin exact de ton image */
+    background-image: url("Winston_Engamba/images/top.jpg.png") !important;
+    
+    /* On centre l'image et on s'assure qu'elle couvre toute la zone */
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    
+    /* On ajoute un léger voile sombre pour que ton nom reste lisible par-dessus */
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    background-blend-mode: multiply !important;
+    
+    /* Tu peux ajuster la hauteur de la bannière ici */
+    padding: 5rem 1rem !important;
+    border-bottom: none !important;
 }
