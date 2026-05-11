@@ -25,7 +25,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     content: none !important; /* Force la suppression des barres si elles persistent */
 }
+/* On s'assure que les barres ne prennent plus de place du tout */
+h1::before, h2::before, h3::before {
+    display: none !important;
+    width: 0 !important;            /* Force la largeur à zéro */
+    margin: 0 !important;
+}
 
+/* --- 2. ALIGNEMENT DU CONTENU GLOBAL --- */
+#main_content {
+    padding-left: 0 !important;    /* Aligne le bloc de contenu au bord */
+}
 /* 2. Cible le sous-titre (Ton "## Process Management...") */
 #main_content h2 {
     font-family: "Cambria", "Times New Roman", serif !important;
