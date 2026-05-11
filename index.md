@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home | Process Management Portfolio
+title: Process Management Portfolio
 ---
 <style>
   .page-header {
