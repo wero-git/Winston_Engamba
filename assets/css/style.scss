@@ -83,19 +83,20 @@ body, p, li {
 }
 /* --- BANNIÈRE AVEC IMAGE --- */
 .page-header {
-    /* Remplace 'images/banner.jpg' par le chemin exact de ton image */
-    background-image: url("../../images/top.jpg.png") !important;
+    /* 1. On retire la couleur bleue par défaut */
+    background-color: transparent !important; 
     
-    /* On centre l'image et on s'assure qu'elle couvre toute la zone */
+    /* 2. On met ton image (vérifie bien si c'est .png en minuscule sur GitHub) */
+    background-image: url("../../images/top.png") !important;
+    
+    /* 3. On cadre l'image */
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    
-    /* On ajoute un léger voile sombre pour que ton nom reste lisible par-dessus */
-    background-color: rgba(0, 0, 0, 0.4) !important;
-    background-blend-mode: multiply !important;
-    
-    /* Tu peux ajuster la hauteur de la bannière ici */
+
+    /* 4. On ajoute un voile sombre (optionnel, pour lire ton nom) */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/top.png") !important;
+
     padding: 5rem 1rem !important;
     border-bottom: none !important;
 }
