@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Optimization | Process Management
+title: Optimization
 ---
 
 # 📈 Process Optimization
