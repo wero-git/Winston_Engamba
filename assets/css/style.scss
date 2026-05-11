@@ -1,7 +1,7 @@
 ---
 ---
 @import "{{ site.theme }}";
-/* --- 1. SUPPRESSION TOTALE DES BARRES / ET // --- */
+/* --- SUPPRESSION TOTALE DES BARRES / ET // --- */
 /* On cible tous les titres possibles et leurs "pseudo-éléments" */
 h1::before, h1::after, 
 h2::before, h2::after, 
@@ -10,18 +10,39 @@ h3::before, h3::after,
     display: none !important;
     content: "" !important;
 }
-/* --- 2. TITRES (WELCOME & SECTIONS) --- */
+/* --- RESET COMPLET DES MARGES ET DES BARRES --- */
+/* On cible le conteneur principal pour forcer l'alignement */
+.inner, #main_content {
+    margin: 0 auto !important;
+    max-width: 940px !important;
+    padding-left: 20px !important; /* Une petite marge de sécurité propre */
+    padding-right: 20px !important;
+}
+/* On s'assure que les décorations CSS ne prennent pas de place */
+h1::before, h2::before, h3::before,
+h1::after, h2::after, h3::after {
+    display: none !important;
+    content: none !important;
+    width: 0 !important;
+    position: absolute !important; /* Les sort du flux de texte */
+}
+
+/* --- TITRES (WELCOME & SECTIONS) --- */
 /* On force l'application des polices sur tous les niveaux de titres */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Cambria", "Times New Roman", serif !important;
     border-bottom: none !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    text-indent: 0 !important; /* Supprime tout retrait de première ligne */
     color: #000000 !important; /* Bleu pro */
 }
-/* 1. Cible le titre principal sur la page blanche (Ton "# Welcome") */
+
+/* Cible le titre principal sur la page blanche ("# Welcome") */
 #main_content h1 {
     font-family: "Cambria", "Times New Roman", serif !important;
     font-size: 2.2rem;
-    color: #000000; /* Un bleu foncé pro pour rappeler la bannière */
+    color: #000000; /* Une couleur noire pour le texte */
     margin-top: 0;
     content: none !important; /* Force la suppression des barres si elles persistent */
 }
@@ -32,11 +53,11 @@ h1::before, h2::before, h3::before {
     margin: 0 !important;
 }
 
-/* --- 2. ALIGNEMENT DU CONTENU GLOBAL --- */
+/* --- ALIGNEMENT DU CONTENU GLOBAL --- */
 #main_content {
     padding-left: 0 !important;    /* Aligne le bloc de contenu au bord */
 }
-/* 2. Cible le sous-titre (Ton "## Process Management...") */
+/* Cible le sous-titre (Ton "## Process Management...") */
 #main_content h2 {
     font-family: "Cambria", "Times New Roman", serif !important;
     font-size: 1.8rem;
@@ -47,14 +68,14 @@ h1::before, h2::before, h3::before {
     content: none !important;
 }
 
-/* 3. Cible tous les autres titres (Compétences, Projets, etc.) */
+/* Cible tous les autres titres (Compétences, Projets, etc.) */
 h3, h4 {
     font-family: "Cambria", "Times New Roman", serif !important;
     font-size: 1.8rem;
     color: #154360;
 }
 
-/* 4. Le corps du texte (paragraphes et listes) */
+/* Le corps du texte (paragraphes et listes) */
 body, p, li {
     font-family: "Cambria", "Segoe UI", sans-serif;
     font-size: 19px;
