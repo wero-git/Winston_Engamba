@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Digitization | Process Management
+title: Digitization
 ---
 
 # 🌐 Process Digitization
