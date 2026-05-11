@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home | Process Management Portfolio
+---
 <style>
   .page-header {
     background-color: #1a1a1a !important;
@@ -8,11 +12,6 @@
     padding: 5rem 1rem !important;
   }
 </style>
----
-layout: default
-title: Home | Process Management Portfolio
----
-
 # Welcome
 ## Process Management | Digitization | Optimization
 >I am a results-driven student with a passion for industrial efficiency. I focus on bridging the gap between traditional operations and digital innovation. My objective is to master the tools that transform raw data into optimized workflows.
