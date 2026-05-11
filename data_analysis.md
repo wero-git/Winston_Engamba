@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Analysis | Process Management
+title: Data Analysis
 ---
 
 # 📊 Data Analysis for Operations
