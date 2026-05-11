@@ -83,17 +83,16 @@ body, p, li {
 }
 /* --- BANNIÈRE AVEC IMAGE --- */
 .page-header {
-    /* On va chercher l'image dans le dossier images */
-    background-image: url("https://github.com/wero-git/Winston_Engamba/blob/main/images/top.png?raw=true") !important;
+    /* On force la suppression de la couleur bleue */
+    background: none !important;
+    background-color: #222 !important; 
+
+    /* COLLE TON LIEN CI-DESSOUS entre les guillemets */
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("COLLE_TON_LIEN_ICI") !important;
     
-    /* Ces lignes permettent de bien cadrer l'image */
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    
-    /* On ajoute un voile sombre pour que ton nom reste lisible */
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    background-blend-mode: multiply !important;
-
     padding: 5rem 1rem !important;
+    border-bottom: none !important;
 }
