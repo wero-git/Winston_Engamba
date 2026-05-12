@@ -76,6 +76,9 @@ h1, h2, h3, h4 {
     border-bottom: 1px solid #eee !important;
     text-align: center !important;
     padding-bottom: 10px;
+    hyphens: auto; /* Active la coupure des mots automatique */
+    webkit-hyphens: auto;
+    ms-hyphens: auto;
 }
 
 /* Autres titres de sections */
