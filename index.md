@@ -34,4 +34,6 @@ I am a results-driven student with a passion for industrial efficiency. I focus 
 *   [**Data Analysis**](./data_analysis.html) – Turning operational data into actionable insights.
 
 ---
-[Connect with me on LinkedIn](https://www.linkedin.com/in/winston-engamba-7b3489325)
+*Contact me* 
+[LinkedIn](https://www.linkedin.com/in/winston-engamba-7b3489325)
+[Email](rodokomon24@gmail.com)
