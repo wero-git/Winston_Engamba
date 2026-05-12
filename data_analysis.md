@@ -16,4 +16,4 @@ Data is the backbone of process optimization. My approach focuses on transformin
 *   [**Inventory Analysis Script**](./inventory_project.html) – A Python-based approach to stock optimization. (Coming Soon)
 *   **SQL Queries for Production** – Database management for shop floor tracking. (Coming Soon)
 
-[Back to Home](../index.html)
+[Back to Home](./index.html)
