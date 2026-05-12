@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Process Management Portfolio
+favicon: /flavicon.png
 ---
 <style>
   .page-header {
