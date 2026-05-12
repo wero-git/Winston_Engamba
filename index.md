@@ -39,6 +39,5 @@ I am a results-driven student with a passion for industrial efficiency. I focus 
 - [LinkedIn](https://www.linkedin.com/in/winston-engamba-7b3489325)
 - [Email](mailto:rodokomon24@gmail.com)
 
-*Thanks for watching* 
 ---
 <p align="center">© 2026 Winston Engamba | Student in Digitization, Optimization and Management </p>
