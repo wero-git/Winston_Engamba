@@ -63,7 +63,8 @@ h1, h2, h3, h4 {
 
 /* Autres titres de sections */
 .main-content h3 {
-    color: #154360 !important; /* Ton bleu pro */
+    color: #000000 !important; /* Ton bleu pro */
+    font-weight: bold;
 }
 
 /* --- 3. BOUTONS CAYMAN (Optionnel) --- */
@@ -98,6 +99,6 @@ html {
   scroll-behavior: smooth;
 }
 strong {
-    color: #154360; /* Le même bleu pro que tes titres */
+    color: #1C80BD; /* Le même bleu pro que tes titres */
     font-weight: bold;
 }
