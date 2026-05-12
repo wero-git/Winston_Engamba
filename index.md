@@ -25,7 +25,7 @@ I am a results-driven student with a passion for industrial efficiency. I focus 
 
 ### 🛠 Toolbox
 - **Optimization:** Value Stream Mapping (VSM), Docker
-- **Modeling:** BPMN 2.0 (Signavio/Bizagi).
+- **Modeling:** BPMN 2.0 (Signavio / Bizagi).
 - **Technical:** Python for Data, Excel VBA, SQL basics.
 
 ### 📂 Projects
