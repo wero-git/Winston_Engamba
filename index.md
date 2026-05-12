@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Process Management Portfolio
-favicon: /favicon-32x32.png
 ---
+<link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/wero-git/Winston_Engamba/main/favicon-32x32.png">
 <style>
   .page-header {
     background-color: #1a1a1a !important;
