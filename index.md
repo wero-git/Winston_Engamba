@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Process Management Portfolio
-footer: © 2024 Winston Engamba - Process Management Specialist
+footer: © 2026 Winston Engamba - Student in Digitization, optimization and Management
 ---
 <link rel="shortcut icon" type="image/png" href="https://github.com/wero-git/Winston_Engamba/blob/main/favicon-32x32.png?raw=true">
 <style>
