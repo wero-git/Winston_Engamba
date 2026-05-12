@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Process Management Portfolio
+footer: © 2024 Winston Engamba - Process Management Specialist
 ---
 <link rel="shortcut icon" type="image/png" href="https://github.com/wero-git/Winston_Engamba/blob/main/favicon-32x32.png?raw=true">
 <style>
@@ -38,4 +39,4 @@ I am a results-driven student with a passion for industrial efficiency. I focus 
 - [LinkedIn](https://www.linkedin.com/in/winston-engamba-7b3489325)
 - [Email](mailto:rodokomon24@gmail.com)
 
-*Thanks for watching*
+*Thanks for watching* 
