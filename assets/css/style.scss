@@ -5,7 +5,7 @@
 /* --- 1. CONFIGURATION DE LA BANNIÈRE (HEADER) --- */
 .page-header {
     /* Ton image avec un voile sombre pour le contraste */
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                       url("https://github.com/wero-git/Winston_Engamba/blob/main/images/top.png?raw=true") !important;
     background-size: cover !important;
     background-position: center !important;
@@ -22,7 +22,7 @@
 
 /* COULEUR DU TITRE DANS LA BANNIÈRE (Nom du projet) */
 .project-name {
-    color: #CEEDD5 !important; /* Blanc pur pour trancher sur l'image */
+    color: #FFFFFF !important; /* Blanc pur pour trancher sur l'image */
     text-align: center !important;
     font-family: "Cambria", serif !important;
 }
