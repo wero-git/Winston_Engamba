@@ -17,7 +17,7 @@ title: Process Management Portfolio
 ## Process Management | Digitization | Optimization
 ---
 ### 👤 About me
->I am a results-driven student with a passion for industrial efficiency. I focus on bridging the gap between traditional operations and digital innovation. My objective is to master the tools that transform raw data into optimized workflows.
+I am a results-driven student with a passion for industrial efficiency. I focus on bridging the gap between traditional operations and digital innovation. My objective is to master the tools that transform raw data into optimized workflows.
 
 ### 🎓 Education & Learning Path
 - 📚 **Focus Areas:** Lean Manufacturing, Supply Chain Optimization, Business Process Modeling.
