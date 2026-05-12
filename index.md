@@ -15,7 +15,7 @@ title: Process Management Portfolio
 </style>
 # Welcome
 ## Process Management | Digitization | Optimization
----
+
 ### 👤 About me
 I am a results-driven student with a passion for industrial efficiency. I focus on bridging the gap between traditional operations and digital innovation. My objective is to master the tools that transform raw data into optimized workflows.
 
