@@ -17,3 +17,6 @@ Digitization is not just about moving from paper to screen; it is about reinvent
 *   *ERP Implementation Workflows* (Coming Soon)
 
 [Back to Home](./index.html)
+
+---
+<p align="center">© 2026 Winston Engamba | Student in Digitization, Optimization and Management </p>
