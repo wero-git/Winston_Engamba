@@ -85,6 +85,10 @@ h1, h2, h3, h4 {
 .main-content h3 {
     color: #000000 !important; /* Ton bleu pro */
     font-weight: bold;
+    hyphens: auto; /* Active la coupure des mots automatique */
+    webkit-hyphens: auto;
+    ms-hyphens: auto;
+    text-justify: inter-word;/* Ajuste l'espacement entre les mots pour éviter les gros blancs */
 }
 
 /* --- 3. BOUTONS CAYMAN (Optionnel) --- */
