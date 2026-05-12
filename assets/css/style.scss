@@ -71,3 +71,26 @@ h1, h2, h3, h4 {
 .btn {
     border-color: rgba(255, 255, 255, 0.4) !important;
 }
+/* --- AMÉLIORATION DES LISTES --- */
+.main-content li {
+    margin-bottom: 0.5rem; /* Espace entre les puces pour la clarté */
+}
+
+/* --- EFFET SUR LES IMAGES (SCHÉMAS DE PROCESSUS) --- */
+.main-content img {
+    display: block;
+    margin: 2rem auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Ombre légère */
+    max-width: 100%;
+}
+
+/* --- AJUSTEMENT MOBILE --- */
+@media (max-width: 600px) {
+    .page-header {
+        padding: 3rem 1rem !important; /* Bannière moins haute sur mobile */
+    }
+    .project-name {
+        font-size: 1.8rem !important; /* Titre un peu plus petit pour éviter de couper les mots */
+    }
+}
