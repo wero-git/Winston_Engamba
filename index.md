@@ -36,6 +36,6 @@ I am a results-driven student with a passion for industrial efficiency. I focus 
 ---
 *Contact me*
 - [LinkedIn](https://www.linkedin.com/in/winston-engamba-7b3489325)
-- [Email](rodokomon24@gmail.com)
+- [Email](mailto:rodokomon24@gmail.com)
 
 *Thanks for watching*
