@@ -17,3 +17,6 @@ Data is the backbone of process optimization. My approach focuses on transformin
 *   **SQL Queries for Production** – Database management for shop floor tracking. (Coming Soon)
 
 [Back to Home](./index.html)
+
+---
+<p align="center">© 2026 Winston Engamba | Student in Digitization, Optimization and Management </p>
