@@ -129,6 +129,17 @@ strong {
     color: #1C80BD; /* Le même bleu pro que tes titres */
     font-weight: bold;
 }
-.page-footer{
-    color: #000000;
+/* Style pour le pied de page */
+.site-footer {
+    padding-top: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid #CEEDD5; /* Rappel de votre vert menthe */
+    text-align: center;
+    font-size: 0.9rem;
+    color: #606c71;
+}
+
+/* Cacher le texte par défaut "is maintained by..." si vous voulez un look plus épuré */
+.site-footer-owner, .site-footer-credits {
+    display: none; 
 }
