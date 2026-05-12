@@ -21,11 +21,11 @@ I am a results-driven student with a passion for industrial efficiency. I focus 
 
 ### 🎓 Education & Learning Path
 - 📚 **Focus Areas:** Lean Manufacturing, Supply Chain Optimization, Business Process Modeling.
-- 💡 **Self-Learning:** Advanced Data Analysis (Power BI/SQL) and Process Automation and Visualisation.
+- 💡 **Self-Learning:** Advanced Data Analysis (SQL) and Process Automation and Visualisation.
 
 ### 🛠 Toolbox
-- **Optimization:** Value Stream Mapping (VSM)
-- **Modeling:** BPMN 2.0 (Signavio/Bizagi), Lucidchart.
+- **Optimization:** Value Stream Mapping (VSM), Docker
+- **Modeling:** BPMN 2.0 (Signavio/Bizagi).
 - **Technical:** Python for Data, Excel VBA, SQL basics.
 
 ### 📂 Projects
