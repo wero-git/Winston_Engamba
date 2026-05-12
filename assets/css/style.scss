@@ -45,7 +45,12 @@
     line-height: 1.6;
     color: #333;
     text-align: justify; /* Justifie le texte (propre et carré) */
-    hyphens: auto;       /* aide à couper les mots longs pour éviter les gros blancs */
+    hyphens: auto; /* Active la coupure des mots automatique */
+    webkit-hyphens: auto;
+    ms-hyphens: auto;
+    overflow-wrap: break-word;/* Autorise la cassure des mots très longs si nécessaire */
+    word-wrap: break-word;
+    text-justify: inter-word;/* Ajuste l'espacement entre les mots pour éviter les gros blancs */
 }
 
 /* Tes titres sur la page blanche (restent noirs/sombres) */
