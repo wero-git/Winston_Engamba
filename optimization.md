@@ -17,3 +17,6 @@ Focusing on Lean principles to identify waste and maximize value-added activitie
 *   *Lean Manufacturing Application* (Coming Soon)
 
 [Back to Home](./index.html)
+
+---
+<p align="center">© 2026 Winston Engamba | Student in Digitization, Optimization and Management </p>
