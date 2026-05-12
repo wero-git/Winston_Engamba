@@ -94,3 +94,10 @@ h1, h2, h3, h4 {
         font-size: 1.8rem !important; /* Titre un peu plus petit pour éviter de couper les mots */
     }
 }
+html {
+  scroll-behavior: smooth;
+}
+strong {
+    color: #154360; /* Le même bleu pro que tes titres */
+    font-weight: bold;
+}
