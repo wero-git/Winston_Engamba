@@ -1,0 +1,15 @@
+## 🚀 Project
+
+>In this phase, I optimized the manual claim process by implementing a structured data model and automated calculation rules.
+
+### Key Improvements:
+* **Logic Automation:** Replaced manual refund estimations with a precise SQL-based logic (`CASE WHEN`) and Excel formulas.
+* **Financial Accuracy:** Developed a calculation engine that automatically applies 70%, 85%, or 100% refund rates based on product condition and issue source.
+* **Time-Fencing:** Integrated a "30-day rule" to automatically flag or abort expired claims, protecting company cash flow.
+
+### Tools & Implementation:
+* **SQL:** Enforced business constraints using `ENUM` types and automated updates.
+* **Excel Power Query:** Consolidated multiple data sources to create a unified reporting view.
+* **Formulas:** Used nested `IF` and `AND` (WENN/UND) logic to ensure zero errors on edge cases (e.g., "Unknown" sources).
+
+> **Result:** Reduced manual processing time by an estimated 60% and eliminated human calculation errors.
