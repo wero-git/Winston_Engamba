@@ -13,7 +13,7 @@ Focusing on Lean principles to identify waste and maximize value-added activitie
 *   **Standardization:** Creating robust standard operating procedures (SOPs).
 
 ### 🚀Case Studies
-*   [**End-to-End Claim Management Optimization: Description, Process Design and Automated Reporting**](./case_study_1.html)
+*   [**End-to-End Claim Management Optimization:**](./case_study_1.html): Description, Process Design and Automated Reporting**]
 *   *Lean Manufacturing Application* (Coming Soon)
 
 [Back to Home](./index.html)
