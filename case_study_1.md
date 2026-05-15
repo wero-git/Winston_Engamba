@@ -1,6 +1,6 @@
 ---
 layout: default
-title: End-to-End Claim Management Optimization:
+title: End-to-End Claim Management Optimization
 ---
 
 ## Introduction
