@@ -2,10 +2,10 @@
 layout: default
 title: End-to-End Claim Management Optimization
 ---
-## Introduction
+### Introduction
 >Throughout what follows, the process described is that of a customer return followed by a claim. Failures will be identified, modeled, and a proposed solution will be resolved.
 ---
-## Process description
+### Process description
 The customer submits a complaint to the company after receiving the package. 
 Customer Service receives and reviews the claim, deciding either to initiate the return process or to escalate the matter to the Legal Department. 
 In the event of legal action, the return procedure is immediately suspended. If the return is deemed legitimate, 
@@ -20,7 +20,7 @@ If the product was damaged by the customer, a notification is sent to Accounting
 *Meanwhile, the accountant calculates the final refund amount and executes the payment, thus concluding the process.
 
 ---
-## Interpretation of the situation
+### Interpretation of the situation
 The process is structured around strict decision-making flows where technical and accounting actions are interdependent.
 
 Receipt & Validation of the Complaint: Upon receiving the complaint, Customer Service analyzes the claim and determines the appropriate course of action:
@@ -39,7 +39,7 @@ the Accounting Department is contacted to issue a refund based on the following 
 Closure: The process concludes with an automated notification sent to the customer once the Accounting Department has finalized the transfer.
 
 ---
-## Problem Statement
+### Problem Statement
 An audit of the current Excel-based system reveals several critical flaws regarding task synchronization and data integrity:
 
 - Lack of Parallelism: Currently, the process relies on a linear 'handover'—technicians fill out their reports, and accounting must then manually consult the file to perform calculations. 
@@ -54,15 +54,15 @@ the standard tracking radar, creating a disconnect between Customer Service and 
 - Inefficient Deadline Management (Time-Outs): No automated alerts are generated at the 30-day mark (J+30). This forces a manual, 
 line-by-line review to identify expired claims that should be aborted, leading to wasted operational hours."
 ---
-# Proposition of solution
+### Proposition of solution
 >In this phase, I optimized the manual claim process by implementing a structured data model and automated calculation rules.
 
-### Key Improvements:
+#### Key Improvements:
 * **Logic Automation:** Replaced manual refund estimations with a precise SQL-based logic (`CASE WHEN`) and Excel formulas.
 * **Financial Accuracy:** Developed a calculation engine that automatically applies 70%, 85%, or 100% refund rates based on product condition and issue source.
 * **Time-Fencing:** Integrated a "30-day rule" to automatically flag or abort expired claims, protecting company cash flow.
 
-### Tools & Implementation:
+#### Tools & Implementation:
 * **SQL:** Enforced business constraints using `ENUM` types and automated updates.
 * **Excel Power Query:** Consolidated multiple data sources to create a unified reporting view.
 * **Formulas:** Used nested `IF` and `AND` (WENN/UND) logic to ensure zero errors on edge cases (e.g., "Unknown" sources).
