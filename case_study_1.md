@@ -16,8 +16,8 @@ If the item is in good condition and the defect originated during production,
 the Accounting Department is notified to issue a full 100% refund. 
 If the product was damaged by the customer, a notification is sent to Accounting to process a partial refund of 85%, or 70% if the product is severely damaged.
 
-*Simultaneously, the technicians log the product details into the Excel database and store the item in the warehouse. 
-*Meanwhile, the accountant calculates the final refund amount and executes the payment, thus concluding the process.
+Simultaneously, the technicians log the product details into the Excel database and store the item in the warehouse. 
+Meanwhile, the accountant calculates the final refund amount and executes the payment, thus concluding the process.
 
 ---
 ### Interpretation of the situation
