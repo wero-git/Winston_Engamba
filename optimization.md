@@ -12,8 +12,8 @@ Focusing on Lean principles to identify waste and maximize value-added activitie
 *   **Cycle Time Reduction:** Streamlining operations for faster delivery.
 *   **Standardization:** Creating robust standard operating procedures (SOPs).
 
-### 🚀 Upcoming Case Studies
-*   *Value Stream Mapping (VSM) Analysis* (Coming Soon)
+### 🚀Case Studies
+*   End-to-End Claim Management Optimization: Description, Process Design and Automated Reporting
 *   *Lean Manufacturing Application* (Coming Soon)
 
 [Back to Home](./index.html)
