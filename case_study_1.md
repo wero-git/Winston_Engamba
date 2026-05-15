@@ -2,7 +2,6 @@
 layout: default
 title: End-to-End Claim Management Optimization
 ---
-
 ## Introduction
 >Throughout what follows, the process described is that of a customer return followed by a claim. Failures will be identified, modeled, and a proposed solution will be resolved.
 ---
