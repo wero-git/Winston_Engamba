@@ -4,7 +4,7 @@ title: End-to-End Claim Management Optimization
 ---
 ### Introduction
 >Throughout what follows, the process described is that of a customer return followed by a claim. Failures will be identified, modeled, and a proposed solution will be resolved.
----
+
 ### Process description
 The customer submits a complaint to the company after receiving the package. 
 Customer Service receives and reviews the claim, deciding either to initiate the return process or to escalate the matter to the Legal Department. 
@@ -19,7 +19,7 @@ If the product was damaged by the customer, a notification is sent to Accounting
 Simultaneously, the technicians log the product details into the Excel database and store the item in the warehouse. 
 Meanwhile, the accountant calculates the final refund amount and executes the payment, thus concluding the process.
 
----
+
 ### Interpretation of the situation
 The process is structured around strict decision-making flows where technical and accounting actions are interdependent.
 
@@ -38,7 +38,7 @@ the Accounting Department is contacted to issue a refund based on the following 
 
 Closure: The process concludes with an automated notification sent to the customer once the Accounting Department has finalized the transfer.
 
----
+
 ### Problem Statement
 An audit of the current Excel-based system reveals several critical flaws regarding task synchronization and data integrity:
 
@@ -53,7 +53,7 @@ the standard tracking radar, creating a disconnect between Customer Service and 
 
 - Inefficient Deadline Management (Time-Outs): No automated alerts are generated at the 30-day mark (J+30). This forces a manual, 
 line-by-line review to identify expired claims that should be aborted, leading to wasted operational hours."
----
+
 ### Proposition of solution
 >In this phase, I optimized the manual claim process by implementing a structured data model and automated calculation rules.
 
@@ -68,3 +68,8 @@ line-by-line review to identify expired claims that should be aborted, leading t
 * **Formulas:** Used nested `IF` and `AND` (WENN/UND) logic to ensure zero errors on edge cases (e.g., "Unknown" sources).
 
 > **Result:** Reduced manual processing time by an estimated 60% and eliminated human calculation errors.
+
+[Back to Home](./index.html)
+
+---
+<p align="center">© 2026 Winston Engamba | Student in Digitization, Optimization and Management </p>
