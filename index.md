@@ -29,7 +29,7 @@ title: Process Management Portfolio
     </h1>
     <p class="text-xl font-medium text-cyan-400">Process Management | Digitization | Optimization</p>
     <p class="text-slate-300 text-base max-w-xl leading-relaxed">
-      Welcome to my Portfolio 🤗. I am a results-driven student with a passion for industrial efficiency, focusing on bridging the gap between traditional operations and digital innovation.
+      Welcome to my Portfolio. I am a results-driven student with a passion for industrial efficiency, focusing on bridging the gap between traditional operations and digital innovation.
     </p>
   </div> 
   <div class="flex-1 flex justify-center" data-aos="fade-left">
