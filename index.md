@@ -25,7 +25,7 @@ title: Process Management Portfolio
 <header class="pt-24 pb-16 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 border-b border-white/10">
   <div class="flex-1 space-y-4" data-aos="fade-right">
     <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-     <p class="text-3xl text-center font-bold text-white"> Hi, I'm </p> <span class="bg-gradient-to-r text-center text-transparent bg-clip-text from-cyan-400 to-blue-500">Winston Engamba</span>
+     <p class="text-3xl font-bold text-center-white"> Hi, I'm </p> <span class="bg-gradient-to-r text-center-transparent bg-clip-text from-cyan-400 to-blue-500">Winston Engamba</span>
     </h1>
     <p class="text-xl font-medium text-cyan-400">Process Management | Digitization | Optimization</p>
     <p class="text-slate-300 text-base max-w-xl leading-relaxed">
