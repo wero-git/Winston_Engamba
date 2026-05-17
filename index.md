@@ -25,7 +25,7 @@ title: Process Management Portfolio
 <header class="pt-24 pb-16 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 border-b border-white/10">
   <div class="flex-1 space-y-4" data-aos="fade-right">
     <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
-     <p class="text-3xl font-bold text-center-white"> Hi, I'm </p> <span class="bg-gradient-to-r text-center-transparent bg-clip-text from-cyan-400 to-blue-500">Winston Engamba</span>
+     <p class="text-3xl font-bold text-white text-center"> Hi, I'm </p> <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Winston Engamba</span>
     </h1>
     <p class="text-xl font-medium text-cyan-400">Process Management | Digitization | Optimization</p>
     <p class="text-slate-300 text-base max-w-xl leading-relaxed">
@@ -39,8 +39,8 @@ title: Process Management Portfolio
 <main class="py-12 px-6 max-w-6xl mx-auto space-y-12">
   <div class="grid md:grid-cols-2 gap-8">
     <section class="glass-card p-6 rounded-xl space-y-3" data-aos="fade-up">
-      <h3 class="text-xl font-bold text-cyan-400 flex items-center gap-2">
-        <i pan class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500"></i> About Me
+      <h3 class="text-xl font-bold text-white flex items-center gap-2">
+        <i pan class="bg-gradient-to-r text-transparent bg-clip-text"></i> About Me
       </h3>
       <p class="text-slate-200 text-sm leading-relaxed">
         My objective is to master the tools that transform raw data into optimized workflows. Focused on Lean Manufacturing, Supply Chain Optimization, and Advanced Process Modeling.
