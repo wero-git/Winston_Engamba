@@ -54,7 +54,7 @@ the standard tracking radar, creating a disconnect between Customer Service and 
 - Inefficient Deadline Management (Time-Outs): No automated alerts are generated at the 30-day mark (J+30). This forces a manual, 
 line-by-line review to identify expired claims that should be aborted, leading to wasted operational hours."
 
-## Proposition of solution
+## The optimized Prozess
 >In this phase, I optimized the manual claim process by implementing a structured data model and automated calculation rules.
 
 ### Key Improvements:
@@ -66,6 +66,9 @@ line-by-line review to identify expired claims that should be aborted, leading t
 * **SQL:** Enforced business constraints using `ENUM` types and automated updates.
 * **Excel Power Query:** Consolidated multiple data sources to create a unified reporting view.
 * **Formulas:** Used nested `IF` and `AND` (WENN/UND) logic to ensure zero errors on edge cases (e.g., "Unknown" sources).
+
+### SQL Implementation
+
 
 > **Result:** Reduced manual processing time by an estimated 60% and eliminated human calculation errors.
 
