@@ -9,7 +9,7 @@ title: Process Management Portfolio
 <link rel="shortcut icon" type="image/png" href="https://github.com/wero-git/Winston_Engamba/blob/main/favicon-32x32.png?raw=true">
 
 <style>
-  /* Thème  */
+  /* Theme*/
   body {
     background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%) !important;
     color: #f8fafc !important;
@@ -26,9 +26,9 @@ title: Process Management Portfolio
 <header class="pt-24 pb-16 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 border-b border-white/10">
   <div class="flex-1 space-y-4 text-center md:text-left" data-aos="fade-right">
     <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white text-center md:text-center">
-      <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500"> Hi, I'm Winston Engamba</span>
+       <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Hi, I'm Winston Engamba</span>
     </h1>
-    <p class="text-xl font-medium text-cyan-400 text-center md:text-center">Process Management | Digitization | Optimization</p>    
+    <p class="text-xl font-medium text-cyan-400 text-center md:text-center">Process Management | Digitization | Optimization</p> 
     <p class="text-slate-300 text-base max-w-xl leading-relaxed text-justify mx-auto md:mx-auto">
       Welcome to my Portfolio. I am a results-driven student with a passion for industrial efficiency, focusing on bridging the gap between traditional operations and digital innovation.
     </p>
@@ -63,13 +63,16 @@ title: Process Management Portfolio
       </div>
     </section>
   </div>
+
   <section class="space-y-6">
-    <h3 class="text-2xl font-bold text-center text-white" data-aos="fade-up">Explore My Work</h3>  
+    <h3 class="text-2xl font-bold text-center text-white" data-aos="fade-up">Explore My Work</h3>   
     <div class="grid md:grid-cols-3 gap-6">
       <div class="glass-card p-6 rounded-xl space-y-3 flex flex-col justify-between" data-aos="zoom-in">
         <div>
           <span class="text-3xl text-cyan-400"><i class="fa-solid fa-network-wired"></i></span>
-          <h4 class="text-lg font-bold text-white mt-2">Process Digitization</h4>
+          <h4 class="text-lg font-bold mt-2">
+            <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Process Digitization</span>
+          </h4>
           <p class="text-slate-300 text-xs leading-relaxed mt-1 text-justify">Transitioning to automated, paperless, and synchronized operational workflows.</p>
         </div>
         <a href="./numerisation.html" class="inline-block text-xs font-semibold text-cyan-400 hover:underline pt-2">View Projects →</a>
@@ -77,7 +80,9 @@ title: Process Management Portfolio
       <div class="glass-card p-6 rounded-xl space-y-3 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="100">
         <div>
           <span class="text-3xl text-emerald-400"><i class="fa-solid fa-chart-line"></i></span>
-          <h4 class="text-lg font-bold text-white mt-2">Process Optimization</h4>
+          <h4 class="text-lg font-bold mt-2">
+            <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Process Optimization</span>
+          </h4>
           <p class="text-slate-300 text-xs leading-relaxed mt-1 text-justify">Applying Lean methodologies, removing waste, and accelerating process execution.</p>
         </div>
         <a href="./optimization.html" class="inline-block text-xs font-semibold text-emerald-400 hover:underline pt-2">View Case Studies →</a>
@@ -85,7 +90,9 @@ title: Process Management Portfolio
       <div class="glass-card p-6 rounded-xl space-y-3 flex flex-col justify-between" data-aos="zoom-in" data-aos-delay="200">
         <div>
           <span class="text-3xl text-yellow-400"><i class="fa-solid fa-chart-pie"></i></span>
-          <h4 class="text-lg font-bold text-white mt-2">Data Analysis</h4>
+          <h4 class="text-lg font-bold mt-2">
+            <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Data Analysis</span>
+          </h4>
           <p class="text-slate-300 text-xs leading-relaxed mt-1 text-justify">Turning raw industrial and shop floor data into sharp, actionable business insights.</p>
         </div>
         <a href="./data_analysis.html" class="inline-block text-xs font-semibold text-yellow-400 hover:underline pt-2">View Insights →</a>
@@ -93,14 +100,45 @@ title: Process Management Portfolio
     </div>
   </section>
 </main>
-<footer class="py-8 text-center text-xs text-slate-400 border-t border-white/5">
-  © 2026 Winston Engamba | Student in Digitization, Optimization and Management
+
+<footer id="contact" class="py-16 px-6 max-w-5xl mx-auto space-y-12 border-t border-white/10">
+  <div class="text-center space-y-2" data-aos="zoom-in">
+    <h2 class="text-3xl font-extrabold">
+      <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Get In Touch</span>
+    </h2>
+    <p class="text-slate-400 text-sm">Have an opportunity or want to discuss process automation? Let's connect!</p>
+  </div>
+
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="glass-card p-6 rounded-xl flex flex-col justify-between space-y-6" data-aos="fade-right">
+      <div>
+        <h3 class="text-lg font-semibold mb-2 text-white">Connect with me</h3>
+        <p class="text-sm text-slate-400 text-justify">Feel free to access my professional networks, check out active repositories, or drop an email regarding projects.</p>
+      </div>
+      <div class="flex space-x-6 text-3xl text-slate-300">
+        <a href="YOUR_GITHUB_LINK" class="hover:text-cyan-400 transition"><i class="fab fa-github"></i></a>
+        <a href="YOUR_LINKEDIN_LINK" class="hover:text-blue-500 transition"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:your.email@example.com" class="hover:text-teal-400 transition"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="text-xs text-slate-500 font-mono">Designed by Winston Engamba © 2026</p>
+    </div>
+    <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
+      <div>
+        <label class="block text-xs uppercase text-slate-400 mb-1">Your Name</label>
+        <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
+      </div>
+      <div>
+        <label class="block text-xs uppercase text-slate-400 mb-1">Your Email</label>
+        <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
+      </div>
+      <div>
+        <label class="block text-xs uppercase text-slate-400 mb-1">Message</label>
+        <textarea rows="3" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white"></textarea>
+      </div>
+      <button type="submit" class="w-full py-2 rounded bg-gradient-to-r from-cyan-500 to-blue-600 hover:opacity-90 font-medium text-sm transition text-white">Send Message</button>
+    </form>
+  </div>
 </footer>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init({ duration: 800, once: true });</script>
-</main>
-<footer class="py-8 text-center text-xs text-slate-400 border-t border-white/5">
-  © 2026 Winston Engamba | Student in Digitization, Optimization and Management
-</footer>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init({ duration: 800, once: true });</script>
