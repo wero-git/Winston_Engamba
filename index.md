@@ -40,7 +40,7 @@
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
                 Hi, I'm <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 via-teal-400 to-blue-500">Winston</span> <br>
-                Welcome to my Portfolio 🤗
+                Welcome to my Portfolio
             </h1>
             <p class="text-gray-400 text-lg max-w-xl mb-4">
                 I bridge the gap between complex business workflows and data architecture. Specialized in Process Optimization, SQL Logic, and Automated Financial Reporting.
@@ -191,7 +191,7 @@
                     <a href="YOUR_LINKEDIN_LINK" class="hover:text-blue-500 transition"><i class="fab fa-linkedin"></i></a>
                     <a href="mailto:your.email@example.com" class="hover:text-teal-400 transition"><i class="fas fa-envelope"></i></a>
                 </div>
-                <p class="text-xs text-gray-500 font-mono">Designed by Winston © 2026</p>
+                <p class="text-xs text-gray-500 font-mono">Designed by Winston, all rights reserved © 2026</p>
             </div>
             <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
                 <div>
@@ -199,7 +199,7 @@
                     <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
                 </div>
                 <div>
-                    <label class="block text-xs uppercase text-gray-400 mb-1">Your Email</label>
+                    <label class="block text-xs uppercase text-gray-400 mb-1">Your email</label>
                     <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
                 </div>
                 <div>
