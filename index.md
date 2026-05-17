@@ -88,9 +88,45 @@ title: Process Management Portfolio
   </section>
 </main>
 
-<footer class="py-8 text-center text-xs text-slate-400 border-t border-white/5">
+
+  <footer id="contact" class="py-20 px-8 max-w-4xl mx-auto space-y-12 border-t border-white/10">
+        <div class="text-center space-y-4" data-aos="zoom-in">
+            <h2 class="text-3xl font-bold">Get In Touch</h2>
+            <p class="text-gray-400 text-sm">Have an opportunity or want to discuss process automation? Let's connect!</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass-card p-6 rounded-xl flex flex-col justify-between space-y-6" data-aos="fade-right">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Connect with me</h3>
+                    <p class="text-sm text-gray-400">Access my live technical repositories and professional profiles.</p>
+                </div>
+                <div class="flex space-x-6 text-3xl text-gray-300">
+                    <a href="YOUR_GITHUB_LINK" class="hover:text-cyan-400 transition"><i class="fab fa-github"></i></a>
+                    <a href="YOUR_LINKEDIN_LINK" class="hover:text-blue-500 transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:your.email@example.com" class="hover:text-teal-400 transition"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p class="text-xs text-gray-500 font-mono">Designed by Winston © 2026</p>
+            </div>
+            <form class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-left">
+                <div>
+                    <label class="block text-xs uppercase text-gray-400 mb-1">Your Name</label>
+                    <input type="text" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase text-gray-400 mb-1">Your Email</label>
+                    <input type="email" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase text-gray-400 mb-1">Message</label>
+                    <textarea rows="3" class="w-full bg-slate-900 border border-white/10 rounded p-2 text-sm focus:border-cyan-500 outline-none text-white"></textarea>
+                </div>
+                <button type="submit" class="w-full py-2 rounded bg-cyan-500 hover:bg-cyan-600 font-medium text-sm transition text-white">Send Message</button>
+            </form>
+        </div>
+    <div class="py-8 text-center text-xs text-slate-400 border-t border-white/5">
+    </div>
   © 2026 Winston Engamba | Student in Digitization, Optimization and Management
 </footer>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init({ duration: 800, once: true });</script>
+<script>AOS.init({ duration: 1000, once: true });</script>
