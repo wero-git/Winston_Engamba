@@ -9,12 +9,12 @@ title: Process Management Portfolio
 <link rel="shortcut icon" type="image/png" href="https://github.com/wero-git/Winston_Engamba/blob/main/favicon-32x32.png?raw=true">
 
 <style>
-  /* Theme */
+  /* Thème  */
   body {
     background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%) !important;
     color: #f8fafc !important;
   }
-  /*(Glassmorphism) */
+  /* (Glassmorphism) */
   .glass-card {
     background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(12px);
@@ -26,19 +26,21 @@ title: Process Management Portfolio
 <header class="pt-24 pb-16 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 border-b border-white/10">
   <div class="flex-1 space-y-4 text-center md:text-left" data-aos="fade-right">
     <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white text-center md:text-center">
-      <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500"> Hi, I'm Winston Engamba </span>
+      Hi, I'm <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500">Winston Engamba</span>
     </h1>
     <p class="text-xl font-medium text-cyan-400 text-center md:text-center">Process Management | Digitization | Optimization</p>    
     <p class="text-slate-300 text-base max-w-xl leading-relaxed text-justify mx-auto md:mx-auto">
-      Welcome to my Portfolio. I am a results-driven student with a passion for industrial efficiency, focusing on bridging the gap between traditional operations and digital innovation.
+      Welcome to my Portfolio 🤗. I am a results-driven student with a passion for industrial efficiency, focusing on bridging the gap between traditional operations and digital innovation.
     </p>
-  </div> 
+  </div>
+  
   <div class="flex-1 flex justify-center" data-aos="fade-left">
     <img src="https://github.com/wero-git/Winston_Engamba/blob/main/images/tech_dna_process_fusion.png?raw=true" alt="Process DNA" class="w-full max-w-sm rounded-2xl drop-shadow-[0_0_25px_rgba(6,182,212,0.25)]">
   </div>
 </header>
 
 <main class="py-12 px-6 max-w-6xl mx-auto space-y-12">
+
   <div class="grid md:grid-cols-2 gap-8">
     <section class="glass-card p-6 rounded-xl space-y-3" data-aos="fade-up">
       <h3 class="text-xl font-bold flex items-center gap-2">
@@ -62,11 +64,11 @@ title: Process Management Portfolio
     </section>
   </div>
   <section class="space-y-6">
-    <h3 class="text-2xl font-bold text-center text-white" data-aos="fade-up"> Explore My Work</h3> 
+    <h3 class="text-2xl font-bold text-center text-white" data-aos="fade-up">Explore My Work</h3>  
     <div class="grid md:grid-cols-3 gap-6">
       <div class="glass-card p-6 rounded-xl space-y-3 flex flex-col justify-between" data-aos="zoom-in">
         <div>
-          <span class="text-3xl text-cyan-400"><i class="fa-solid fa-network-wired"></i>
+          <span class="text-3xl text-cyan-400"><i class="fa-solid fa-network-wired"></i></span>
           <h4 class="text-lg font-bold text-white mt-2">Process Digitization</h4>
           <p class="text-slate-300 text-xs leading-relaxed mt-1 text-justify">Transitioning to automated, paperless, and synchronized operational workflows.</p>
         </div>
@@ -90,12 +92,15 @@ title: Process Management Portfolio
       </div>
     </div>
   </section>
-
 </main>
-
 <footer class="py-8 text-center text-xs text-slate-400 border-t border-white/5">
   © 2026 Winston Engamba | Student in Digitization, Optimization and Management
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({ duration: 800, once: true });</script>
+</main>
+<footer class="py-8 text-center text-xs text-slate-400 border-t border-white/5">
+  © 2026 Winston Engamba | Student in Digitization, Optimization and Management
+</footer>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init({ duration: 800, once: true });</script>
