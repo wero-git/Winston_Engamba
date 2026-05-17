@@ -62,11 +62,12 @@ title: Process Management Portfolio
     </section>
   </div>
   <section class="space-y-6">
-    <h3 class="text-2xl font-bold text-center text-white" data-aos="fade-up">Explore My Work</h3> 
+    <h3 class="text-2xl font-bold text-center text-white" data-aos="fade-up"> Explore My Work</h3> 
     <div class="grid md:grid-cols-3 gap-6">
       <div class="glass-card p-6 rounded-xl space-y-3 flex flex-col justify-between" data-aos="zoom-in">
         <div>
-          <span class="text-3xl text-cyan-400"><i class="fa-solid fa-network-wired"></i></span>
+          <span class="text-3xl text-cyan-400"><i class="fa-solid fa-network-wired"></i>
+          <span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-blue-500"></span>
           <h4 class="text-lg font-bold text-white mt-2">Process Digitization</h4>
           <p class="text-slate-300 text-xs leading-relaxed mt-1 text-justify">Transitioning to automated, paperless, and synchronized operational workflows.</p>
         </div>
