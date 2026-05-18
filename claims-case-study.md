@@ -42,6 +42,21 @@ title: End-to-End Claim Management Optimization
       Process Design, Structural Bottlenecks, and Automated Multi-Tiered Financial Reporting Engine
     </p>
   </header>
+  
+<nav class="sticky top-0 z-50 w-full backdrop-blur-md bg-slate-900/70 border-b border-white/10 main-container py-4">
+    <div class="flex items-center justify-between px-4">
+        <a href="#home" class="text-sm font-bold tracking-wider text-white hover:text-cyan-400 transition-colors uppercase">
+            <span class="text-cyan-400">⚡</span> End-To-End Claims
+        </a>
+        <div class="flex items-center gap-6 text-xs font-semibold uppercase tracking-wider">
+            <a href="#overview" class="text-slate-300 hover:text-cyan-400 transition-colors">Overview</a>
+            <a href="#bpmn-section" class="text-slate-300 hover:text-cyan-400 transition-colors">BPMN Process</a>
+            <a href="#sql-section" class="text-slate-300 hover:text-cyan-400 transition-colors">SQL Database</a>
+            <a href="#deliverables" class="text-slate-300 hover:text-cyan-400 transition-colors">Deliverables</a>
+        </div>
+    </div>
+</nav>
+<div id="home"></div>
 
   <section class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-up">
     <h2 class="text-xl font-bold flex items-center gap-2">
@@ -248,14 +263,75 @@ title: End-to-End Claim Management Optimization
     <img src="./images/excel-powerquery-dash.png" alt="Excel View" class="w-full rounded-lg border border-white/5 shadow-2xl">
     <p class="text-[10px] text-slate-400 mt-2 italic text-center">Case Studies in Excel consolidated with Power Query.</p>
   </div>
+  <section class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6" data-aos="fade-up">  
+    <div class="p-6 glass-card rounded-xl border border-white/10 flex flex-col justify-between">
+        <div>
+            <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest flex items-center gap-2">
+                <i class="fas fa-download text-emerald-400"></i> Project Deliverables
+            </h3>
+            <p class="text-slate-300 text-sm mb-6">
+                Access the complete set of technical documents, optimized workflows, and database architecture blueprints for this case study.
+            </p>
+        </div>     
+        <div class="space-y-3">
+            <a href="./images/bpmn-claims-optimized.png" download class="flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-lg border border-white/5 transition-all group">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-file-image text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-xs text-slate-200 font-medium">BPMN Optimized Process (PNG)</span>
+                </div>
+                <i class="fas fa-arrow-alt-circle-down text-slate-400 group-hover:text-emerald-400 transition-colors"></i>
+            </a>
+            <a href="./script.sql" download class="flex items-center justify-between p-3 bg-white/5 hover:bg-white/10 rounded-lg border border-white/5 transition-all group">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-file-code text-amber-400 group-hover:scale-110 transition-transform"></i>
+                    <span class="text-xs text-slate-200 font-medium">MySQL Database Script (SQL)</span>
+                </div>
+                <i class="fas fa-arrow-alt-circle-down text-slate-400 group-hover:text-emerald-400 transition-colors"></i>
+            </a>
+        </div>
+    </div>
+    <div class="p-6 glass-card rounded-xl border border-white/10 flex flex-col justify-between text-center md:text-left">
+        <div>
+            <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest flex items-center justify-center md:justify-start gap-2">
+                <i class="fas fa-share-alt text-purple-400"></i> Connect with me
+            </h3>
+            <p class="text-slate-300 text-sm mb-6">
+                Have any questions regarding this end-to-end architecture or want to discuss process automation? Let's connect on social media.
+            </p>
+        </div>
+        <div class="flex items-center justify-center md:justify-start gap-4 py-2">
+            <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer" 
+               class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-[#0077b5]/20 border border-white/5 hover:border-[#0077b5]/50 text-slate-300 hover:text-[#0077b5] transition-all duration-300 text-lg group" title="LinkedIn">
+                <i class="fab fa-linkedin-in group-hover:scale-110 transition-transform"></i>
+            </a>
+            <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer" 
+               class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-white/20 border border-white/5 hover:border-white/50 text-slate-300 hover:text-white transition-all duration-300 text-lg group" title="GitHub">
+                <i class="fab fa-github group-hover:scale-110 transition-transform"></i>
+            </a>
+            <a href="mailto:your.email@example.com" 
+               class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-emerald-500/20 border border-white/5 hover:border-emerald-500/50 text-slate-300 hover:text-emerald-400 transition-all duration-300 text-lg group" title="Email">
+                <i class="fas fa-envelope group-hover:scale-110 transition-transform"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<div class="mt-16 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+    <div>
+        © 2026 - End-to-End Claims Optimization Project. All rights reserved.
+    </div>
+        <a href="#home" class="flex items-center gap-2 text-slate-400 hover:text-cyan-400 transition-all duration-300 group font-medium uppercase tracking-wider">
+        Back to top 
+        <i class="fas fa-arrow-up group-hover:-translate-y-1 transition-transform text-emerald-400"></i>
+    </a>
+</div>
 
   <div class="pt-6 text-center" data-aos="fade-up">
     <a href="./index.html" class="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:underline transition">
       <i class="fa-solid fa-house"></i> Back Home
     </a>
   </div>
-
-</div>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init({ duration: 800, once: true });</script>
