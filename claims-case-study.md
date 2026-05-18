@@ -124,7 +124,7 @@ title: End-to-End Claim Management Optinization
     </p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
       <div class="space-y-3">
-        <h3 class="text-sm font-bold text-white uppercase tracking-wider">Key Improvements</h3>
+        <h3 class="text-sm font-bold text-white uppercase tracking-wider"><span class="text-emerald-400 font-bold">Key Improvements</span></h3>
         <ul class="space-y-2 text-xs text-slate-300 text-justify">
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-bolt text-emerald-400 mt-0.5"></i>
@@ -141,7 +141,7 @@ title: End-to-End Claim Management Optinization
         </ul>
       </div>
       <div class="space-y-3">
-        <h3 class="text-sm font-bold text-white uppercase tracking-wider">Tools & Implementation</h3>
+        <h3 class="text-sm font-bold text-white uppercase tracking-wider"><span class="text-emerald-400 font-bold">Tools & Implementation</span></h3>
         <ul class="space-y-2 text-xs text-slate-300 text-justify">
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-code text-cyan-400 mt-0.5"></i>
