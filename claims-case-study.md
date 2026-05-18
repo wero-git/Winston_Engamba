@@ -168,7 +168,7 @@ title: End-to-End Claim Management Optinization
 
   <div class="pt-6 text-center" data-aos="fade-up">
     <a href="./index.html" class="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:underline transition">
-      <i class="fa-solid fa-house"></i> Back to Main Portfolio
+      <i class="fa-solid fa-house"></i> Back Home
     </a>
   </div>
 
