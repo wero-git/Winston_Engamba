@@ -116,9 +116,9 @@ title: Process Management Portfolio
         <p class="text-sm text-slate-400 text-justify">Feel free to access my professional networks, check out active repositories, or drop an email regarding projects.</p>
       </div>
       <div class="flex space-x-6 text-3xl text-slate-300">
-        <a href="YOUR_GITHUB_LINK" class="hover:text-cyan-400 transition"><i class="fab fa-github"></i></a>
-        <a href="YOUR_LINKEDIN_LINK" class="hover:text-blue-500 transition"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:your.email@example.com" class="hover:text-teal-400 transition"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/wero-git" class="hover:text-cyan-400 transition"><i class="fab fa-github"></i></a>
+        <a href="www.linkedin.com/in/winston-engamba-7b3489325" class="hover:text-blue-500 transition"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:rodokomon24@gmail.com" class="hover:text-teal-400 transition"><i class="fas fa-envelope"></i></a>
       </div>
       <p class="text-xs text-slate-500 font-mono">Designed by Winston Engamba © 2026</p>
     </div>
