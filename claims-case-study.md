@@ -173,7 +173,7 @@ title: End-to-End Claim Management Optimization
   </section>
   
 <div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
-  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest">Process Flowchart (BPMN 2.0)</h3>
+  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-emerald-400">Process Flowchart (BPMN 2.0)</span></h3>
   <img src="./images/bpmn-claims-optimized.png" alt="BPMN Diagram" class="w-full rounded-lg border border-white/5 shadow-2xl">
   <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual representation of the optimized decision-making flow.</p>
 </div>
@@ -231,7 +231,7 @@ title: End-to-End Claim Management Optimization
     </div>
     
   <div class="p-4 glass-card rounded-xl border border-white/10 mt-4" data-aos="zoom-in">
-      <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="text-emerald-400 font-bold">Table with the previous mySQL code</span></h3>
+      <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-emerald-400">Table with the previous mySQL code</span></h3>
       <img src="./images/sql-table-result.png" alt="Datas Table" class="w-full rounded-lg border border-white/5 shadow-2xl">
       <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual Table of the data compiled from the database terminal.</p>
   </div>
@@ -244,7 +244,7 @@ title: End-to-End Claim Management Optimization
   </section>
 
 <div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
-    <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="text-emerald-400 font-bold">Representation in Excel</span></h3>
+    <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="bg-gradient-to-r text-transparent bg-clip-text from-cyan-400 to-emerald-400">Representation in Excel</span></h3>
     <img src="./images/excel-powerquery-dash.png" alt="Excel View" class="w-full rounded-lg border border-white/5 shadow-2xl">
     <p class="text-[10px] text-slate-400 mt-2 italic text-center">Case Studies in Excel consolidated with Power Query.</p>
   </div>
