@@ -335,15 +335,15 @@ title: End-to-End Claim Management Optimization
             </p>
         </div>
         <div class="flex items-center gap-4">
-            <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer" 
+            <a href="https://www.linkedin.com/in/winston-engamba-7b3489325/" target="_blank" rel="noopener noreferrer" 
                class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-[#0077b5]/20 border border-white/5 hover:border-[#0077b5]/50 text-slate-300 hover:text-[#0077b5] transition-all duration-300 text-sm group" title="LinkedIn">
                 <i class="fab fa-linkedin-in group-hover:scale-110 transition-transform"></i>
             </a>
-            <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/wero-git/" target="_blank" rel="noopener noreferrer" 
                class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-white/20 border border-white/5 hover:border-white/50 text-slate-300 hover:text-white transition-all duration-300 text-sm group" title="GitHub">
                 <i class="fab fa-github group-hover:scale-110 transition-transform"></i>
             </a>
-            <a href="mailto:your.email@example.com" 
+            <a href="mailto:rodokomon24@gmail.com" 
                class="w-10 h-10 flex items-center justify-center rounded-lg bg-white/5 hover:bg-emerald-500/20 border border-white/5 hover:border-emerald-500/50 text-slate-300 hover:text-emerald-400 transition-all duration-300 text-sm group" title="Email">
                 <i class="fas fa-envelope group-hover:scale-110 transition-transform"></i>
             </a>
