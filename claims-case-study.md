@@ -115,7 +115,7 @@ title: End-to-End Claim Management Optimization
   </section>
 
 <div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
-  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest">Process Flowchart (BPMN 2.0)</h3>
+  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="text-emerald-400 font-bold">Process Flowchart (BPMN 2.0)</span></h3>
   <img src="./images/bpmn-claims-optimized.png" alt="BPMN Diagram" class="w-full rounded-lg border border-white/5 shadow-2xl">
   <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual representation of the initial decision-making flow.</p>
 </div>
@@ -229,11 +229,12 @@ title: End-to-End Claim Management Optimization
       <p class="pl-4"><span class="text-purple-400">CONCAT</span>(refund_amount, <span class="text-orange-300">' €'</span>) <span class="text-pink-400">AS</span> total_refunded, process_status</p>
       <p><span class="text-pink-400">FROM</span> Claim_Management;</p>
     </div>
-<div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
-  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest">Table with the previous mySQL code</h3>
-  <img src="./images/bpmn-claims-optimized.png" alt="Datas Table" class="w-full rounded-lg border border-white/5 shadow-2xl">
-  <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual Table of the the datas from the previous code.</p>
-</div>
+    
+  <div class="p-4 glass-card rounded-xl border border-white/10 mt-4" data-aos="zoom-in">
+      <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="text-emerald-400 font-bold">Table with the previous mySQL code</span></h3>
+      <img src="./images/sql-table-result.png" alt="Datas Table" class="w-full rounded-lg border border-white/5 shadow-2xl">
+      <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual Table of the data compiled from the database terminal.</p>
+  </div>
     <div class="mt-4 p-4 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-center flex items-center justify-center gap-3">
       <i class="fa-solid fa-circle-check text-2xl text-emerald-400"></i>
       <span class="text-sm font-semibold text-white">
@@ -241,6 +242,12 @@ title: End-to-End Claim Management Optimization
       </span>
     </div>
   </section>
+
+<div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
+    <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest"><span class="text-emerald-400 font-bold">Representation in Excel</span></h3>
+    <img src="./images/excel-powerquery-dash.png" alt="Excel View" class="w-full rounded-lg border border-white/5 shadow-2xl">
+    <p class="text-[10px] text-slate-400 mt-2 italic text-center">Case Studies in Excel consolidated with Power Query.</p>
+  </div>
 
   <div class="pt-6 text-center" data-aos="fade-up">
     <a href="./index.html" class="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:underline transition">
