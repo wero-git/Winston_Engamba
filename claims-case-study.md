@@ -161,7 +161,7 @@ title: End-to-End Claim Management Optinization
     <div class="mt-4 p-4 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-center flex items-center justify-center gap-3">
       <i class="fa-solid fa-circle-check text-2xl text-emerald-400"></i>
       <span class="text-sm font-semibold text-white">
-        Result: Reduced manual processing time by an estimated <span class="text-emerald-400 font-bold">60%</span> and completely eliminated human calculation errors.
+        Result: Reduced manual processing time and human calculation errors.
       </span>
     </div>
   </section>
