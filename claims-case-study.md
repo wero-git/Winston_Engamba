@@ -114,6 +114,12 @@ title: End-to-End Claim Management Optinization
     </div>
   </section>
 
+<div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
+  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest">Process Flowchart (BPMN 2.0)</h3>
+  <img src="./images/bpmn-claims-optimized.png" alt="BPMN Diagram" class="w-full rounded-lg border border-white/5 shadow-2xl">
+  <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual representation of the optimized decision-making flow.</p>
+</div>
+
   <section class="glass-card p-6 rounded-xl space-y-4" data-aos="fade-up" data-aos-delay="100">
     <h2 class="text-xl font-bold flex items-center gap-2">
       <i class="fa-solid fa-square-poll-horizontal text-emerald-400"></i>
