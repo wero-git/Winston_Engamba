@@ -128,7 +128,7 @@ title: End-to-End Claim Management Optinization
         <ul class="space-y-2 text-xs text-slate-300 text-justify">
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-bolt text-emerald-400 mt-0.5"></i>
-            <span><strong>Logic Automation:</strong> Replaced manual refund estimations with precise SQL-based logic (<code class="text-cyan-400">CASE WHEN</code>) and Excel formulas.</span>
+            <span><strong>Logic Automation:</strong> Replaced manual refund estimations with precise SQL-based logic (<span class="text-emerald-400 font-bold">CASE WHEN</span>) and Excel formulas.</span>
           </li>
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-shield-halved text-emerald-400 mt-0.5"></i>
@@ -145,15 +145,15 @@ title: End-to-End Claim Management Optinization
         <ul class="space-y-2 text-xs text-slate-300 text-justify">
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-code text-cyan-400 mt-0.5"></i>
-            <span><strong>SQL Implementation:</strong> Enforced strict business constraints using <code class="text-emerald-400">ENUM</code> types and automated updates.</span>
+            <span><strong>SQL Implementation:</strong> Enforced strict business constraints using <span class="text-emerald-400 font-bold">ENUM</span> types and automated updates.</span>
           </li>
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-table text-cyan-400 mt-0.5"></i>
-            <span><strong>Excel Power Query:</strong> Consolidated multiple fragmented data sources to create a unified reporting view.</span>
+            <span><strong>Excel:</strong> Consolidated multiple fragmented data sources to create a unified reporting view.</span>
           </li>
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-calculator text-cyan-400 mt-0.5"></i>
-            <span><strong>Formulas:</strong> Used nested <code class="text-emerald-400">IF</code> and <code class="text-emerald-400">AND</code> (<code class="text-slate-400">WENN/UND</code>) logic to ensure zero errors on edge cases (e.g., “Unknown” sources).</span>
+            <span><strong>Formulas:</strong> Used nested <span class="text-emerald-400 font-bold">IF</span> and <span class="text-emerald-400 font-bold">AND</span> (<span class="text-emerald-400 font-bold">WENN/UND </span>) logic to ensure zero errors on edge cases (e.g., “Unknown” sources).</span>
           </li>
         </ul>
       </div>
