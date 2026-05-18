@@ -1,6 +1,6 @@
 ---
 layout: default
-title: End-to-End Claim Management Optinization
+title: End-to-End Claim Management Optimization
 ---
 
 <script src="https://cdn.tailwindcss.com"></script>
@@ -229,10 +229,15 @@ title: End-to-End Claim Management Optinization
       <p class="pl-4"><span class="text-purple-400">CONCAT</span>(refund_amount, <span class="text-orange-300">' €'</span>) <span class="text-pink-400">AS</span> total_refunded, process_status</p>
       <p><span class="text-pink-400">FROM</span> Claim_Management;</p>
     </div>
+<div class="p-4 glass-card rounded-xl border border-white/10" data-aos="zoom-in">
+  <h3 class="text-xs font-bold text-cyan-400 mb-4 uppercase tracking-widest">Table with the previous mySQL code</h3>
+  <img src="./images/bpmn-claims-optimized.png" alt="Datas Table" class="w-full rounded-lg border border-white/5 shadow-2xl">
+  <p class="text-[10px] text-slate-400 mt-2 italic text-center">Visual Table of the the datas from the previous code.</p>
+</div>
     <div class="mt-4 p-4 rounded-lg bg-emerald-500/10 border border-emerald-500/20 text-center flex items-center justify-center gap-3">
       <i class="fa-solid fa-circle-check text-2xl text-emerald-400"></i>
       <span class="text-sm font-semibold text-white">
-        Result: Reduced manual processing time by an estimated <span class="text-emerald-400 font-bold">60%</span> and completely eliminated human calculation errors.
+        Result: Visualisation of the <span class="text-emerald-400 font-bold">optimized</span> Datas and significant reduction of humans' errors.
       </span>
     </div>
   </section>
