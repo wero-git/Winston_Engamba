@@ -153,7 +153,7 @@ title: End-to-End Claim Management Optinization
           </li>
           <li class="flex items-start gap-1.5">
             <i class="fa-solid fa-calculator text-cyan-400 mt-0.5"></i>
-            <span><strong>Formulas:</strong> Used nested <span class="text-emerald-400 font-bold">IF</span> and <span class="text-emerald-400 font-bold">AND</span> (<span class="text-emerald-400 font-bold">WENN/UND </span>) logic to ensure zero errors on edge cases (e.g., “Unknown” sources).</span>
+            <span><strong>Formulas:</strong> Used nested <span class="text-emerald-400 font-bold">IF</span> and <span class="text-emerald-400 font-bold">AND</span> (<span class="text-emerald-400 font-bold">WENN/UND</span>) logic to ensure zero errors on edge cases (e.g., “Unknown” sources).</span>
           </li>
         </ul>
       </div>
